@@ -1,0 +1,176 @@
+body { 
+    /* font-family: 'Aref Ruqaa Ink', serif; */
+    background-color: #DCF2F1;
+    height: 100%;
+}
+
+a:link {
+    color: #0F1035;
+    text-decoration:none;
+}
+
+a:visited {
+    color: #1c3c63;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#E18AAA;
+    text-decoration:none;
+}
+
+a:active {
+    color:#ECBDC4;
+    text-decoration:none;
+}
+
+.header {
+    display: flex; 
+    justify-content: space-between;
+    height: 28px;
+    padding: 40px 0px 50px 0px;
+}
+
+.port {
+    font-size: 35px;
+    margin-left: 100px;
+}
+
+.cabecalho {
+    padding-top: 15px;
+    font-size: 21px;
+    word-spacing: 80px;
+    margin-right: 100px;
+}
+
+.principal {
+    height: 690px;
+    background-color: #6891C3;
+    padding-bottom: 150px;
+    margin: 0px 0px 0px 0px;
+}
+
+.inicio {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.titulo1 {
+    font-size: 40px;
+    color: #0F1035;
+    padding: 200px 0px 0px 200px;
+}
+
+.txt_principal {
+    font-size: 20px;
+    margin: 0px 0px 30px 200px;
+}
+
+.btn_sobre {
+    background-color: #E18AAA;  
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px 0px 0px 200px;
+}
+
+.btn_sobre:hover {
+    transform: scale(1.05);
+}
+
+.ft {
+    margin-right: 200px;;
+    margin-top: 190px;
+    height: 400px;
+    border-radius: 20px;
+}
+
+.sobre_mim { 
+    margin-top: 0px;
+}
+
+.quem_sou {
+    font-size: 35px;
+    color: #0F1035;
+    padding: 50px 0px 0px 0px; 
+    text-align: center;
+}
+
+.sobre_mim_txt {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.txt_esquerda{
+    margin: 0px 0px 30px 300px;
+}
+
+.txt_direita {
+    margin: 0px 300px 0px 0px;
+}
+
+.botao_cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    margin-right: 200px;
+}
+
+.baixar_cv {
+    background-color: #E18AAA;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 17px;
+    margin: 0px 0px 0px 200px;
+}
+
+.baixar_cv:hover {
+    transform: scale(1.05);
+}
+
+.video_esquerda {
+    padding-left: 300px;
+    width: 500px;
+}
+
+.videos_projetos {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.titulo_esquerda {
+    color: #1c3c63;
+    font-size: 30px;
+    padding-left: 340px;
+}
+
+.link_repositorio_esquerda {
+    padding-left: 300px;
+    font-size: 20px;
+}
+
+.texto_direita {
+    margin-right: 600px;
+}
+
+.titulo_direita {
+    color: #1c3c63;
+    font-size: 30px;
+    padding-left: 1280px;
+}
+
+.video_direita {
+    padding-right: 300px;
+    width: 500px;
+}
+
+.texto_esquerda {
+    margin-left: 600px;
+}
+
+.link_repositorio_direita {
+    padding-left: 1340px;
+    font-size: 20px;
+}
